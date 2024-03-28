@@ -18,12 +18,12 @@ export default function Footer() {
                 <h4 id="contact" className="text-lg pb-2 pl-8 lg:pl-0">Contact</h4>
                 <p className="pl-8 lg:pl-0">If you would like to get in contact, please</p>
                 <p className="pl-8 pr-2 md:max-w-[48%] lg:pl-0">feel free to reach out via email, LinkedIn or GitHub.</p>
-                <div className="hidden md:flex pt-8 pl-8 lg:pl-0">
+                <div className="hidden md:flex pt-12 pl-8 lg:pl-0">
                     <a href="https://www.linkedin.com/in/luka-martin-7b674a134/" target="_blank"><FaLinkedin size={40} className="mr-4" /></a>
                     <a href="malito: ldm3334@gmail.com"><MdOutlineEmail size={40} className="mr-4" /></a>
                     <a href="https://github.com/LukaMartin" target="_blank"><FaGithub size={40} /></a>
                 </div>
-                <div className="flex pt-8 pl-8 lg:pl-0 md:hidden">
+                <div className="flex pt-12 pl-8 lg:pl-0 md:hidden">
                     <a href="https://www.linkedin.com/in/luka-martin-7b674a134/" target="_blank"><FaLinkedin size={35} className="mr-4" /></a>
                     <a href="malito: ldm3334@gmail.com"><MdOutlineEmail size={35} className="mr-4" /></a>
                     <a href="https://github.com/LukaMartin" target="_blank"><FaGithub size={35} /></a>

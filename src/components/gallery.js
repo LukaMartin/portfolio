@@ -45,7 +45,7 @@ export default function Gallery() {
     ]
 
     return (
-        <div data-aos="fade-up" className="hidden md:block max-w-[75rem] mx-8 xl:mx-auto p-8 bg-[#070808] rounded-xl my-20 lg:my-40">
+        <div data-aos="fade-up" className="hidden md:block max-w-[75rem] mx-8 xl:mx-auto p-8 bg-[#121212] rounded-xl my-20 lg:my-40">
             <h2 className="text-2xl text-white pb-8">Project Gallery</h2>
             <ImageGallery 
                 items={images}

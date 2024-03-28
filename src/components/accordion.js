@@ -28,7 +28,7 @@ export default function Accordion() {
     }
 
     return (
-        <div data-aos="zoom-in" id="projects" className="bg-[#070808] rounded-xl text-white mx-4 xl:mx-0 my-20 lg:my-40 md:mx-[7.5rem] lg:mx-8 lg:w-[42%]">
+        <div data-aos="zoom-in" className="bg-[#121212] rounded-xl text-white mx-4 xl:mx-0 my-20 lg:my-40 md:mx-[7.5rem] lg:mx-8 lg:w-[42%]">
             <div className=" flex flex-col p-6 md:p-8">
                 <h2 className="text-xl md:text-2xl">Projects</h2>
                 <li className="flex justify-between py-8 text-lg border-b-[1px] border-b-slate-400">Ethereum Gas Tracker

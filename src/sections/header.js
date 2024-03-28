@@ -8,7 +8,7 @@ export default function Header() {
 
     return (
         <>
-            <div className="h-[9rem] bg-[#121212] text-white border-b-[1px] border-b-slate-400">
+            <div className="h-[9rem] bg-[#121212] text-white border-b-[1px] border-b-[#252525]">
                 <nav className="hidden md:flex justify-between max-w-[75rem] lg:mx-2 xl:mx-auto h-full items-center">
                     <h1 className="md:text-2xl lg:text-3xl pl-8 xl:pl-1">Luka Martin Portfolio</h1>
                     <ul className="flex text-xl">

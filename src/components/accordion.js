@@ -36,11 +36,11 @@ export default function Accordion() {
                 </li>
                 {toggleViewOne && <p className="pt-8">I created an application that gives up to date Ethereum gas price estimates, referencing BlockNative and GasNow thorugh their API's.</p>}
                 {toggleViewOne && <a className="pt-4 underline lg:hover:underline hover:opacity-20" href="https://eth-gas-tracker-ten.vercel.app/" target="_blank">Website Link</a>}
-                <li className="flex justify-between py-8 text-lg border-b-[1px] border-b-slate-400">Spotify Interface
+                <li className="flex justify-between py-8 text-lg border-b-[1px] border-b-slate-400">Gym Program Generator
                     {!toggleViewTwo ? <IoIosArrowDown className="hover:opacity-25" onClick={menuItemsTwo} size={25} /> : <IoIosArrowUp className="hover:opacity-25" onClick={() => setToggleViewTwo(false)} size={25} />}
                 </li>
-                {toggleViewTwo && <p className="pt-8">I built a Spotify interface that enables users to search for tracks, create playlists and customise their current playlists using the Spotify API.</p>}
-                {toggleViewTwo && <a className="pt-4 underline lg:hover:underline hover:opacity-20" href="https://jamming-sand.vercel.app/" target="_blank">Website Link</a>}
+                {toggleViewTwo && <p className="pt-8">I built an application using the ChatGPT API that allows users to create a gym program based on their training goals. It also includes the ability to search for any given exercise and get instructions on how to perfrom the exercise.</p>}
+                {toggleViewTwo && <a className="pt-4 underline lg:hover:underline hover:opacity-20" href="https://gym-program-generator.vercel.app/" target="_blank">Website Link</a>}
                 <li className="flex justify-between py-8 text-lg border-b-[1px] border-b-slate-400">Froggy Friends Website
                     {!toggleViewThree ? <IoIosArrowDown className="hover:opacity-25" onClick={menuItemsThree} size={25} /> : <IoIosArrowUp className="hover:opacity-25" onClick={() => setToggleViewThree(false)} size={25} />}
                 </li>

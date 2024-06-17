@@ -3,8 +3,9 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import gastrackerOne from "../images/gastracker-one.png"
 import gastrackerTwo from "../images/gastracker-two.png"
-import spotifyOne from "../images/spotifyapp-one.PNG"
-import spotifyTwo from "../images/spotifyapp-two.PNG"
+import gymGenOne from "../images/gymgen-one.PNG"
+import gymGenTwo from "../images/gymgen-two.PNG"
+
 import hibernationOne from "../images/hibernation-one.PNG"
 import hibernationTwo from "../images/hibernation-two.PNG"
 
@@ -23,12 +24,12 @@ export default function Gallery() {
             originalClass: "rounded-xl overflow-hidden"
         },
         {
-            original: spotifyOne,
+            original: gymGenOne,
             originalAlt: "spotify-app-image-one",
             originalClass: "rounded-xl overflow-hidden"
         },
         {
-            original: spotifyTwo,
+            original: gymGenTwo,
             originalAlt: "spotify-app-image-two",
             originalClass: "rounded-xl overflow-hidden"
         },

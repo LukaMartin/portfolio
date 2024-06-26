@@ -34,8 +34,8 @@ export default function Accordion() {
                 <li className="flex justify-between py-8 text-lg border-b-[1px] border-b-slate-400">Ethereum Gas Tracker
                     {!toggleViewOne ? <IoIosArrowDown className="hover:opacity-25" onClick={menuItemsOne} size={25} /> : <IoIosArrowUp className="hover:opacity-25" onClick={() => setToggleViewOne(false)} size={25} />}
                 </li>
-                {toggleViewOne && <p className="pt-8">I created an application that gives up to date Ethereum gas price estimates, referencing BlockNative and GasNow thorugh their API's.</p>}
-                {toggleViewOne && <a className="pt-4 underline lg:hover:underline hover:opacity-20" href="https://eth-gas-tracker-ten.vercel.app/" target="_blank">Website Link</a>}
+                {toggleViewOne && <p className="pt-8">I created an application that gives up to date Ethereum gas price estimates, referencing BlockNative gas data thorugh their API's.</p>}
+                {toggleViewOne && <a className="pt-4 underline lg:hover:underline hover:opacity-20" href="https://ethereum-gas-track.vercel.app/" target="_blank">Website Link</a>}
                 <li className="flex justify-between py-8 text-lg border-b-[1px] border-b-slate-400">Gym Program Generator
                     {!toggleViewTwo ? <IoIosArrowDown className="hover:opacity-25" onClick={menuItemsTwo} size={25} /> : <IoIosArrowUp className="hover:opacity-25" onClick={() => setToggleViewTwo(false)} size={25} />}
                 </li>

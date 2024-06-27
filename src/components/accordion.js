@@ -32,17 +32,17 @@ export default function Accordion() {
             <div className=" flex flex-col p-6 md:p-8">
                 <h2 className="text-xl md:text-2xl">Projects</h2>
                 <li className="flex justify-between py-8 text-lg border-b-[1px] border-b-slate-400">Ethereum Gas Tracker
-                    {!toggleViewOne ? <IoIosArrowDown className="hover:opacity-25" onClick={menuItemsOne} size={25} /> : <IoIosArrowUp className="hover:opacity-25" onClick={() => setToggleViewOne(false)} size={25} />}
+                    {!toggleViewOne ? <IoIosArrowDown className="hover:opacity-25 hover:cursor-pointer" onClick={menuItemsOne} size={25} /> : <IoIosArrowUp className="hover:opacity-25 hover:cursor-pointer" onClick={() => setToggleViewOne(false)} size={25} />}
                 </li>
                 {toggleViewOne && <p className="pt-8">I created an application that gives up to date Ethereum gas price estimates, referencing BlockNative gas data thorugh their API's.</p>}
                 {toggleViewOne && <a className="pt-4 underline lg:hover:underline hover:opacity-20" href="https://ethereum-gas-track.vercel.app/" target="_blank">Website Link</a>}
                 <li className="flex justify-between py-8 text-lg border-b-[1px] border-b-slate-400">Gym Program Generator
-                    {!toggleViewTwo ? <IoIosArrowDown className="hover:opacity-25" onClick={menuItemsTwo} size={25} /> : <IoIosArrowUp className="hover:opacity-25" onClick={() => setToggleViewTwo(false)} size={25} />}
+                    {!toggleViewTwo ? <IoIosArrowDown className="hover:opacity-25 hover:cursor-pointer" onClick={menuItemsTwo} size={25} /> : <IoIosArrowUp className="hover:opacity-25 hover:cursor-pointer" onClick={() => setToggleViewTwo(false)} size={25} />}
                 </li>
                 {toggleViewTwo && <p className="pt-8">I built an application using the ChatGPT API that allows users to create a gym program based on their training goals. It also includes the ability to search for any given exercise and get instructions on how to perfrom the exercise.</p>}
                 {toggleViewTwo && <a className="pt-4 underline lg:hover:underline hover:opacity-20" href="https://gym-program-generator.vercel.app/" target="_blank">Website Link</a>}
                 <li className="flex justify-between py-8 text-lg border-b-[1px] border-b-slate-400">Froggy Friends Website
-                    {!toggleViewThree ? <IoIosArrowDown className="hover:opacity-25" onClick={menuItemsThree} size={25} /> : <IoIosArrowUp className="hover:opacity-25" onClick={() => setToggleViewThree(false)} size={25} />}
+                    {!toggleViewThree ? <IoIosArrowDown className="hover:opacity-25 hover:cursor-pointer" onClick={menuItemsThree} size={25} /> : <IoIosArrowUp className="hover:opacity-25 hover:cursor-pointer" onClick={() => setToggleViewThree(false)} size={25} />}
                 </li>
                 {toggleViewThree && <p className="pt-8">I assisted the Froggy Friends development team in building the new website for their Hibernation NFT staking.</p>}
                 {toggleViewThree && <a className="pt-4 underline lg:hover:underline hover:opacity-20" href="https://hibernation.froggyfriends.io/" target="_blank">Website Link</a>}

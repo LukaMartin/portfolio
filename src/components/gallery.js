@@ -2,6 +2,7 @@ import React from "react";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import gastrackerOne from "../images/gastracker-one.png"
+import gastrackerTwo from "../images/gastracker-two.png"
 import gymGenOne from "../images/gymgen-one.PNG"
 import gymGenTwo from "../images/gymgen-two.PNG"
 
@@ -14,6 +15,11 @@ export default function Gallery() {
     const images = [
         {
             original: gastrackerOne,
+            originalAlt: "gastracker-image-one",
+            originalClass: "rounded-xl overflow-hidden"
+        },
+        {
+            original: gastrackerTwo,
             originalAlt: "gastracker-image-one",
             originalClass: "rounded-xl overflow-hidden"
         },

@@ -20,7 +20,7 @@ export default function Footer() {
                 <p className="pl-8 pr-2 md:max-w-[48%] lg:pl-0">feel free to reach out via email, LinkedIn or GitHub.</p>
                 <div className="hidden md:flex pt-12 pl-8 lg:pl-0">
                     <a href="https://www.linkedin.com/in/luka-martin-7b674a134/" target="_blank"><FaLinkedin size={40} className="mr-4" /></a>
-                    <a href="malito: ldm3334@gmail.com"><MdOutlineEmail size={40} className="mr-4" /></a>
+                    <a href="mailto:ldm3334@gmail.com"><MdOutlineEmail size={40} className="mr-4" /></a>
                     <a href="https://github.com/LukaMartin" target="_blank"><FaGithub size={40} /></a>
                 </div>
                 <div className="flex pt-12 pl-8 lg:pl-0 md:hidden">

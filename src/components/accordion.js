@@ -34,18 +34,18 @@ export default function Accordion() {
                 <li className="flex justify-between py-8 text-lg border-b-[1px] border-b-slate-400">Web 3 Sonar
                     {!toggleViewOne ? <IoIosArrowDown className="hover:opacity-25 hover:cursor-pointer" onClick={menuItemsOne} size={25} /> : <IoIosArrowUp className="hover:opacity-25 hover:cursor-pointer" onClick={() => setToggleViewOne(false)} size={25} />}
                 </li>
-                {toggleViewOne && <p className="pt-8">Web3Sonar is an application that aims to provide users with a wide variety of tools to navigate web3. I built the application using NextJs, TypeScript, TailwindCSS and Shadcn UI.</p>}
+                {toggleViewOne && <p className="pt-8">Web3 Sonar is an application that aims to provide users with a wide variety of tools to navigate web3. I built the application using NextJs, TypeScript, TailwindCSS, Zustand, Wagmi, EthersJs and Shadcn UI.</p>}
                 {toggleViewOne && <a className="pt-4 underline lg:hover:underline hover:opacity-20" href="https://web3sonar.xyz/" target="_blank">Website Link</a>}
                 <li className="flex justify-between py-8 text-lg border-b-[1px] border-b-slate-400">Gym Program Generator
                     {!toggleViewTwo ? <IoIosArrowDown className="hover:opacity-25 hover:cursor-pointer" onClick={menuItemsTwo} size={25} /> : <IoIosArrowUp className="hover:opacity-25 hover:cursor-pointer" onClick={() => setToggleViewTwo(false)} size={25} />}
                 </li>
                 {toggleViewTwo && <p className="pt-8">I built an application using the ChatGPT API that allows users to create a gym program based on their training goals. It also includes the ability to search for any given exercise and get instructions on how to perfrom the exercise.</p>}
                 {toggleViewTwo && <a className="pt-4 underline lg:hover:underline hover:opacity-20" href="https://gym-program-generator.vercel.app/" target="_blank">Website Link</a>}
-                <li className="flex justify-between py-8 text-lg border-b-[1px] border-b-slate-400">Froggy Friends Website
+                <li className="flex justify-between py-8 text-lg border-b-[1px] border-b-slate-400">Froggy Friends Portals
                     {!toggleViewThree ? <IoIosArrowDown className="hover:opacity-25 hover:cursor-pointer" onClick={menuItemsThree} size={25} /> : <IoIosArrowUp className="hover:opacity-25 hover:cursor-pointer" onClick={() => setToggleViewThree(false)} size={25} />}
                 </li>
-                {toggleViewThree && <p className="pt-8">I assisted the Froggy Friends development team in building the new website for their Hibernation NFT staking.</p>}
-                {toggleViewThree && <a className="pt-4 underline lg:hover:underline hover:opacity-20" href="https://hibernation.froggyfriends.io/" target="_blank">Website Link</a>}
+                {toggleViewThree && <p className="pt-8">As part of the Froggy Friends developement team, I worked on their portals application. Portals allows Froggy Friends NFT holders to bridge their NFTs across blockchains including Ethereum and Base utilising Layer Zero.</p>}
+                {toggleViewThree && <a className="pt-4 underline lg:hover:underline hover:opacity-20" href="https://portals.froggyfriends.io/" target="_blank">Website Link</a>}
             </div>
         </div>
     )

@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   background-color: #020202;
+}
+
+html {
+  scroll-behavior: smooth;
 }

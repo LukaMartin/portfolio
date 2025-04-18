@@ -100,7 +100,7 @@ export default function Accordion() {
           </a>
         )}
         <li className="flex justify-between py-8 text-lg border-b-[1px] border-b-slate-400">
-          Froggy Friends Portals
+          Hyswap
           {!toggleViewThree ? (
             <IoIosArrowDown
               className="hover:opacity-25 hover:cursor-pointer transition-all duration-300"
@@ -117,16 +117,15 @@ export default function Accordion() {
         </li>
         {toggleViewThree && (
           <p className="pt-8">
-            As part of the Froggy Friends developement team, I worked on their
-            portals application. Portals allows Froggy Friends NFT holders to
-            bridge their NFTs across blockchains including Ethereum and Base
-            utilising Layer Zero.
+            I built a peer-to-peer NFT swap platform on the HyperEVM network. It
+            allows users to securely swap NFTs between each other, with support
+            for offering or requesting native $HYPE.
           </p>
         )}
         {toggleViewThree && (
           <a
             className="pt-4 text-white/70 hover:text-white transition-all duration-300 w-28"
-            href="https://portals.froggyfriends.io/"
+            href="https://hyswap.io/"
             target="_blank"
             rel="noreferrer"
           >
